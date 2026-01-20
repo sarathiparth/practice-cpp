@@ -15,5 +15,8 @@ int main(){
         cout<<p[j];
     }
 
+    delete []p;
+    p = nullptr;
+
     return 0;
 }
